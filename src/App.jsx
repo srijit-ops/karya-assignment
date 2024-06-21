@@ -104,16 +104,16 @@ function App() {
           ></motion.circle>
         </svg>
         <div className='data'>
-          <h1 className='text-blue'>Trusted by the world's top companies</h1>
+          <h1>Trusted by the world's top companies</h1>
           {/* <h1>{state.name}</h1> */}
           {
             state.mainLogo &&
             <div className='flex justify-center items-center'>
-          <img alt="karya-logo" src={state.mainLogo} className='w-full h-full'/>
+          <img alt="karya-logo" src={state.mainLogo} className='w-[350px] h-[350px]'/>
           </div>
           }
           
-          <p className='font-semibold text-red-500'>{state.testimonial}</p>
+          <p>{state.testimonial}</p>
           <div className='flex justify-between items-start gap-3'>
             {/* <img alt='user-img' src={state.userImg} className='w-70 h-70'/> */}
             <p>{state.userName}</p>
