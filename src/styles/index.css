@@ -12,20 +12,7 @@
   box-sizing: border-box;
 }
 
-.container {
-  height: 100vh;
-  width: 100%;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.top,
-.bottom {
-  background-color: antiquewhite;
-}
-
+/* 
 .box {
   height: 112px;
   width: 112px;
@@ -38,7 +25,7 @@
   justify-content: center;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
+} */
 
 .box:nth-child(2) {
   left: 100px;
@@ -85,19 +72,3 @@
   left: 325px;
 }
 
-
-.main {
-  position: relative;
-}
-
-.data {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  z-index: 500;
-  transform: translate(-50%, -50%);
-  height: 350px;
-  width: 430px;
-  pointer-events: none;
-  user-select: none;
-}
