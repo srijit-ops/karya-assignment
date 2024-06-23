@@ -71,10 +71,10 @@ function App() {
           <motion.circle
             cx="700"
             cy="700"
-            r="698.5"
-            fill="#e2e8f0"
+            r="718.5"
+            fill="#d7f8e8" //#d1def9
             fill-opacity="0.2"
-            stroke="#41B47D"
+            stroke="#bfe9d3"
             stroke-width="2"
             stroke-dasharray="6 10"
             style={{ x, y }}
@@ -82,10 +82,32 @@ function App() {
           <motion.circle
             cx="700"
             cy="700"
-            r="598.5"
-            fill="#e2e8f0"
+            r="658.5"
+            fill="#d7f8e8"
             fill-opacity="0.2"
-            stroke="#41B47D"
+            stroke="#bfe9d3"
+            stroke-width="2"
+            stroke-dasharray="4 10"
+            style={{ x, y }}
+          ></motion.circle>
+          <motion.circle
+            cx="700"
+            cy="700"
+            r="638.5"
+            fill="#d7f8e8"
+            fill-opacity="0.2"
+            stroke="#bfe9d3"
+            stroke-width="2"
+            stroke-dasharray="9 10"
+            style={{ x, y }}
+          ></motion.circle>
+          <motion.circle
+            cx="700"
+            cy="700"
+            r="528.5"
+            fill="#d7f8e8"
+            fill-opacity="0.2"
+            stroke="#b7e7ce"
             stroke-width="2"
             stroke-dasharray="6 10"
             style={{ x, y }}
@@ -93,10 +115,10 @@ function App() {
           <motion.circle
             cx="700"
             cy="700"
-            r="498.5"
-            fill="#e2e8f0"
+            r="418.5"
+            fill="#d7f8e8"
             fill-opacity="0.2"
-            stroke="#41B47D"
+            stroke="#b4e6cb"
             stroke-width="2"
             stroke-dasharray="6 10"
             style={{ x, y }}
@@ -105,15 +127,37 @@ function App() {
             cx="700"
             cy="700"
             r="398.5"
-            fill="#e2e8f0"
+            fill="#d7f8e8"
             fill-opacity="0.2"
-            stroke="#41B47D"
+            stroke="#b8deca"
+            stroke-width="2"
+            stroke-dasharray="4 10"
+            style={{ x, y }}
+          ></motion.circle>
+          <motion.circle
+            cx="700"
+            cy="700"
+            r="378.5"
+            fill="#d7f8e8"
+            fill-opacity="0.2"
+            stroke="#9fdebc"
             stroke-width="2"
             stroke-dasharray="6 10"
             style={{ x, y }}
           ></motion.circle>
+          <motion.circle
+            cx="700"
+            cy="700"
+            r="318.5"
+            fill="#d7f8e8"
+            fill-opacity="0.2"
+            stroke="#8cdcb2"
+            stroke-width="2"
+            stroke-dasharray="4 10"
+            style={{ x, y }}
+          ></motion.circle>
         </svg>
-        <div className="absolute top-1/2 left-1/2 z-[500] h-[350px] w-[430px] pointer-events-none -translate-x-1/2 -translate-y-1/2 select-none">
+        <div className="absolute top-1/2 left-1/2 z-[500] h-[350px] w-[420px] pointer-events-none -translate-x-1/2 -translate-y-1/2 select-none">
           {state.mainLogo ? (
             <div className="flex justify-center items-center">
               <img
