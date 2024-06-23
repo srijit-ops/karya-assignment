@@ -156,11 +156,11 @@ function App() {
             </div>
           ) : (
             <>
-              <h1 className="font-bold sm:text-xl text-lg tracking-wide sm:mb-8 mb-6 text-[#1e293b] text-center">
+              <h1 className="font-bold md:text-xl sm:text-lg text-base tracking-wide sm:mb-8 mb-6 text-[#1e293b] text-center">
                 Trusted by the world's top companies
               </h1>
               <div className="flex justify-center  flex-col">
-                <p>{state.testimonial}</p>
+                <p className="sm:text-base text-sm">{state.testimonial}</p>
                 <div className="flex justify-start items-start gap-4 mt-8">
                   <img
                     alt="user-img"
@@ -168,10 +168,10 @@ function App() {
                     className="w-70 h-70"
                   />
                   <div>
-                    <p className="text-[#41b47d] text-lg font-bold">
+                    <p className="text-[#41b47d] sm:text-lg text-base font-bold">
                       {state.userName}
                     </p>
-                    <p>
+                    <p className="sm:text-base text-sm">
                       {state.role}, {state.companyName}
                     </p>
                   </div>
