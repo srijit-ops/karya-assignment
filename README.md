@@ -1,0 +1,1 @@
+### this is the karya assignment made with framer, react js and tailwind css. ###
